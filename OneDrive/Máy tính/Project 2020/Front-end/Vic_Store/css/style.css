@@ -1,0 +1,389 @@
+*{
+    margin: 0;
+    border: 0;
+}
+.container{
+    width: 1200px;
+    margin-top: 25px;
+}
+
+/* Menu */
+
+.menu{   
+    
+    margin-left: 300px;   
+    display: inline;
+}
+
+
+.menu p{
+    color: #664d4d;
+    margin-top: 30px;
+    margin-left: 30px;
+    display: inline;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+}
+
+.menu p:hover ,.view1:hover ,.view3:hover{
+    color: #464444;
+}
+.menu a:hover{
+    opacity: 0;
+}
+
+.menu a{
+    margin-left: 30px;
+
+}
+
+/* Slider */ 
+
+.slide{
+    width: 1200px;
+    margin-top: 20px;
+    margin-left: 80px;
+    position: relative;
+}
+
+.slide h2{
+    position: absolute;
+    margin-top: -440px;
+    margin-left: 80px;
+    font-size: 80px;
+    text-transform: uppercase;
+
+}
+
+.slide p{
+    width: 500px;
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 20px;
+}
+
+.slide button:hover{
+    background-color: #928787;
+}
+
+.slide button ,{
+    width: 190px;
+    height: 50px;
+    background-color: #3671be;
+    border-radius: 25px;
+    position: absolute;
+    margin-top: -175px;
+    margin-left: 80px;
+    margin-right: 80px;
+    font-size: 25px;
+    color: white;
+}
+
+/* Banner */
+
+.banner1{
+    width: 1200px;
+    height: 700px;
+    margin-top: 20px;
+    margin-left: 80px;
+    position: relative;
+    margin-bottom: auto;
+}
+
+
+.banner1 .bannerL img{
+    width: 660px;
+    height: 590px;  
+    position: absolute;
+}
+
+.banner1 .bannerR img{
+    width: 487px;
+    height: 700px;
+    margin-left: 688px;
+    position: absolute;
+}
+
+.banner1 .bannerL .view1{
+    margin-top: 380px;
+    margin-left: 420px;
+    font-size: 62px;
+    position: absolute;
+}
+
+.view1 span{
+    font-weight: bold;
+}
+
+.banner1 .bannerL .view2{
+    margin-top: 525px;
+    margin-left: 507px;
+    font-size: 30px;
+    color:#464444;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+.banner1 .bannerR .view3{
+    margin-top: 227px;
+    margin-left: 708px;
+    font-size: 62px;
+    position: absolute;
+}
+
+.view3 span{
+    font-weight: bold;
+}
+
+.banner1 .bannerR .view4{
+    margin-top: 390px;
+    margin-left: 708px;
+    font-size: 20px;
+    color:#464444;
+    text-transform: uppercase;
+    position: absolute;
+}
+
+/* Content*/ 
+.content{
+    width: 1200px;
+    height: 645px;
+    margin-left: 80px;
+    position: relative;
+}
+.content #title{
+    margin-top: 20px;
+    font-size: 60px;
+}
+.content span{
+    font-weight: bold;
+}
+
+.content img{
+    width: 285px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+    overflow: hidden;   
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+
+}
+
+.content img:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.content #nameSp{
+    color: #664d4d;
+    font-size: 20px;
+    width: 285px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+}
+
+.content .gia{
+    color: #664d4d;
+    font-size: 40px;
+    width: 285px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+}
+
+.content .gia span{
+    font-size: 20;
+}
+
+.content #btn{
+    color: #664d4d;   
+    width: 285px;
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 20px;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content #btn button{
+    background-color: #3671be;
+    border-radius: 25px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+}
+
+.content #btn button:hover{
+    background-color: #928787;
+
+}
+
+/* Banner 2*/
+
+.banner2{
+    width: 1200px;
+    height: 490px;
+    margin-left: 80px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.banner2 .bannerL2 img{
+    width: 650px;
+    height: 350px;
+    position: absolute;
+}
+
+.banner2 .bannerR2 img{
+    position: absolute;
+    margin-left: 678px;
+    width: 500px;
+    height: 470px;
+}
+
+.banner2 .bannerL2 #x1{
+    position: absolute;
+    margin-top: 105px;
+    margin-left: 410px;
+    font-size: 75px;
+    color: #464444;
+}
+
+.banner2 .bannerL2 #x1 span{
+    font-weight: bold;
+}
+
+.banner2 .bannerL2 #x2{
+    position: absolute;
+    font-size: 25px;
+    margin-top: 290px;
+    margin-left: 410px;
+    color: #464444;
+    text-transform: uppercase;
+
+}
+
+.banner2 .bannerL2 #x1:hover ,.banner2 .bannerL2 #x2:hover{
+    color: #664d4d;
+}
+
+.banner2 .bannerR2 #x3{
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 1008px;
+    font-size: 70px;
+    color: #464444;
+}
+
+.banner2 .bannerR2 #x3 span{
+    font-weight: bold;
+}
+
+.banner2 .bannerR2 #x4{
+    position: absolute;
+    font-size: 20px;
+    margin-top: 320px;
+    margin-left: 1013px;
+    color: #464444;
+    text-transform: uppercase;
+
+}
+
+.banner2 .bannerR2 #x3:hover ,.banner2 .bannerR2 #x4:hover{
+    color: #664d4d;
+}
+
+
+/* Footer */
+
+.footer{
+    width: 1200px;
+    height: 130px;
+    margin-left: 80px;
+    margin-top: 10px;
+    position: relative;
+
+}
+
+
+.footer .as #a1{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+}
+
+.footer .as img{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 2px;
+    width: 70px;
+    
+}
+.footer .as #a2{
+    position: absolute;
+    width: 215px;
+    margin-top: 36px;
+    margin-left: 85px;
+    font-size: 18px;
+}
+
+.footer .contact {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.footer .contact #a4{
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    margin-left: 430px;
+}
+
+.footer .contact #a5{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 430px;
+    font-size: 20px;
+    color: #464444;
+}
+
+.footer .contact #a6{
+    font-size: 20px;
+    position: absolute;
+    margin-top: 68px;
+    margin-left: 430px;
+    color: #464444;
+}
+
+.footer .contact span{
+    font-size: 18px;
+}
+
+.footer .link{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 700px;
+    color: #664d4d;    
+}
